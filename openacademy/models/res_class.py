@@ -4,7 +4,7 @@ from odoo import fields, models
 
 
 class ResClass(models.Model):
-    _inherit = "res.class"
+    _name = "res.class"
 
     name = fields.Float(string="Class name")
     tutor_id = fields.Char(string="Tutor")
